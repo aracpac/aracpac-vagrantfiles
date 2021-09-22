@@ -83,7 +83,7 @@ Vagrant.configure( "2" ) do |config|
     end
     # configure vagrant
     config.vm.box = "aracpac/ubuntu20"
-    config.vm.box_version = ">=1.3.0"
+    config.vm.box_version = ">=1.4.0"
     config.vm.define vagrantConfig[ "hostname" ] do |node|
         node.vm.hostname = vagrantConfig[ "hostname" ]
         node.vm.network "private_network", ip: vagrantConfig[ "ip" ]

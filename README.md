@@ -7,7 +7,7 @@ configured by modifying variables at the top of each `Vagrantfile`. Some feature
 * ✅ Automatic shell scripts generated to enable and configure NFS support on Windows
 * ✅ Various commented performance tweaks
 
-## Getting Started
+## Beginner's Guide
 ### Software
 First, you will first need to download and install [vagrant](https://www.vagrantup.com/docs/installation/) and
 [virtualbox](https://www.virtualbox.org/wiki/Downloads).
