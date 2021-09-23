@@ -82,7 +82,7 @@ Vagrant.configure( "2" ) do |config|
         config.hostmanager.include_offline = true
     end
     # configure vagrant
-    config.vm.box = "aracpac/centos8_stream"
+    config.vm.box = "aracpac/centos8-stream"
     config.vm.box_version = ">=1.4.0"
     config.vm.define vagrantConfig[ "hostname" ] do |node|
         node.vm.hostname = vagrantConfig[ "hostname" ]
