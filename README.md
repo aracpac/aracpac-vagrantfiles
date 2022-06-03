@@ -47,10 +47,11 @@ git clone https://github.com/aracpac/aracpac-vagrantfiles
     └── src
         └── aracpac-vagrantfiles
             ├── README.md
-            ├── centos8-stream             <-- Vagrant configuration files to use for a CentOS virtual machine
+            ├── centos9-stream             <-- Vagrant configuration files to use for a CentOS 9 virtual machine
                 └── Vagrantfile
-            └── ubuntu20                   <-- Vagrant configuration files to use for a Ubuntu virtual machine
+            └── ubuntu22                   <-- Vagrant configuration files to use for a Ubuntu 22 virtual machine
                 └── Vagrantfile
+            ...
 ```
 
 4. Now navigate to the `boxes` folder using your command shell, create a new directory called `aracpac`, and copy one of 
