@@ -37,9 +37,9 @@ password.
 git clone https://github.com/aracpac/aracpac-vagrantfiles
 ```
 
-3. You will now have an `aracpac-vagrantfiles` directory within the `src` directory. Inside it, there will be two
-directories,`mac` and `windows`, each of which will have `Vagrantfile`s within them. A `Vagrantfile` is a small ruby
-script that instructs the `vagrant` software on configuring a virtual machine instance. In this case, the `Vagrantfile`
+3. You will now have an `aracpac-vagrantfiles` directory within the `src` directory. Inside, you will find several OS-specific
+directories, each of which with a corresponding `Vagrantfile` inside. A `Vagrantfile` is a small ruby
+script that configures the `vagrant` software and corresponding virtual machine instance. In this case, the `Vagrantfile`
 will configure a `virtualbox` instance, or *box*.
 ```
 .
